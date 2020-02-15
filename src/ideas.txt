@@ -1,0 +1,2 @@
+Create pop heart bubble function that shows "love message" 
+create DB for messages and add things each year
