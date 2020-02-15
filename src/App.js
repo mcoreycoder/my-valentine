@@ -34,7 +34,7 @@ function App() {
 
         <img src={logo} className="App-logo" alt="logo" style={{ display : showit() }}/>
 
-        <Confetti width={1000} height={1000} run={isClick} />
+        <Confetti width={1500} height={1000} run={isClick} recycle={false}/>
       </header>
     </div>
   );
