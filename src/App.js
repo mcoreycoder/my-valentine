@@ -56,7 +56,8 @@ function App() {
           tweenDuration={10000}
           // tweenFunction={()=>10}
           onConfettiComplete={() => {
-            setClick(!isClick)
+            window.location.reload();
+          
           }}
 
           // drawShape={ctx => {
@@ -92,3 +93,5 @@ function App() {
 }
 
 export default App;
+
+
