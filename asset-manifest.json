@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/my-valenitine/static/css/main.d3fd0b0b.chunk.css",
-    "main.js": "/my-valenitine/static/js/main.9fcefb90.chunk.js",
-    "main.js.map": "/my-valenitine/static/js/main.9fcefb90.chunk.js.map",
+    "main.js": "/my-valenitine/static/js/main.74952e6e.chunk.js",
+    "main.js.map": "/my-valenitine/static/js/main.74952e6e.chunk.js.map",
     "runtime-main.js": "/my-valenitine/static/js/runtime-main.59684b27.js",
     "runtime-main.js.map": "/my-valenitine/static/js/runtime-main.59684b27.js.map",
-    "static/js/2.9ca51c45.chunk.js": "/my-valenitine/static/js/2.9ca51c45.chunk.js",
-    "static/js/2.9ca51c45.chunk.js.map": "/my-valenitine/static/js/2.9ca51c45.chunk.js.map",
+    "static/js/2.10f1dd0f.chunk.js": "/my-valenitine/static/js/2.10f1dd0f.chunk.js",
+    "static/js/2.10f1dd0f.chunk.js.map": "/my-valenitine/static/js/2.10f1dd0f.chunk.js.map",
     "index.html": "/my-valenitine/index.html",
-    "precache-manifest.fdf43f33702b8573c03fb58f9de5ec59.js": "/my-valenitine/precache-manifest.fdf43f33702b8573c03fb58f9de5ec59.js",
+    "precache-manifest.8b52eac8ff2dce7bbe3f35abedac43a9.js": "/my-valenitine/precache-manifest.8b52eac8ff2dce7bbe3f35abedac43a9.js",
     "service-worker.js": "/my-valenitine/service-worker.js",
     "static/css/main.d3fd0b0b.chunk.css.map": "/my-valenitine/static/css/main.d3fd0b0b.chunk.css.map",
-    "static/js/2.9ca51c45.chunk.js.LICENSE.txt": "/my-valenitine/static/js/2.9ca51c45.chunk.js.LICENSE.txt"
+    "static/js/2.10f1dd0f.chunk.js.LICENSE.txt": "/my-valenitine/static/js/2.10f1dd0f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.59684b27.js",
-    "static/js/2.9ca51c45.chunk.js",
+    "static/js/2.10f1dd0f.chunk.js",
     "static/css/main.d3fd0b0b.chunk.css",
-    "static/js/main.9fcefb90.chunk.js"
+    "static/js/main.74952e6e.chunk.js"
   ]
 }

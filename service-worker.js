@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/my-valenitine/precache-manifest.fdf43f33702b8573c03fb58f9de5ec59.js"
+  "/my-valenitine/precache-manifest.8b52eac8ff2dce7bbe3f35abedac43a9.js"
 );
 
 self.addEventListener('message', (event) => {
