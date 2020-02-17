@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2edbce1e9531d64c023512afbf49dad7",
+    "revision": "1cfe5f8ed409ce0833b849a64e66235e",
     "url": "/my-valentine/index.html"
   },
   {
-    "revision": "3c5e3d2d3986969d58c8",
+    "revision": "a56a404bef595693304b",
     "url": "/my-valentine/static/css/main.d3fd0b0b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-valentine/static/js/2.54461cc9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3c5e3d2d3986969d58c8",
-    "url": "/my-valentine/static/js/main.bbd8dfad.chunk.js"
+    "revision": "a56a404bef595693304b",
+    "url": "/my-valentine/static/js/main.c432c338.chunk.js"
   },
   {
     "revision": "6dffc794432d956ef2d3",
