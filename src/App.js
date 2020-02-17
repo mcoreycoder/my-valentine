@@ -35,27 +35,29 @@ function App() {
 
         <PopHeart isClick={isClick} onClick={() => setClick(!isClick)} />
 
-        {/* <img src={logo} className="App-logo" alt="logo" style={{ display : showit() }}/> */}
+        <img src={logo} className="App-logo" alt="logo" style={{ display : showit() }}/>
 
         {/* <Confetti width={1500} height={1000} run={isClick} recycle={false}/> */}
 
         <Confetti
           width={width}
           height={height}
-          numberOfPieces={50}
-          confettiSource={{ x: 720, y: 475, w: 20, h: 10 }}
-          // friction={0.95}
-          // wind={-0.05}
-          gravity={0.01}
-          // initialVelocityX={4}
-          // initialVelocityY={5}
-          colors={["#AFEEEE", "#40E0D0", "#48D1CC", "#00CED1", "#007b7d","#FF1493","#FF00FF","#8A2BE2", "#FF0000", "	#FFFF00", "#FFE4E1"]}
-          opacity={0.5}
-          // recycle={isClick === false ? true : false}
+          numberOfPieces={20}
+          confettiSource={{ x: (width/2), y: (height/2), w: 0, h: 0 }}
+          friction={0.99}
+          // wind={.01}
+          gravity={0.02}
+          // initialVelocityX={10}
+          // initialVelocityY={10}
+          colors={["#AFEEEE","#8A2BE2", "#FF0000", "#FFFF00", "#FFE4E1", "#40E0D0", "#48D1CC", "#00CED1", "#007b7d","#FF1493","#FF00FF"]}
+          opacity={0.7}
+          recycle={!isClick }
           run={isClick}
           tweenDuration={10000}
-          // tweenFunction={1}
-          // onConfettiComplete={(confetti) => console.log("confetti is",confetti)}
+          // tweenFunction={()=>10}
+          onConfettiComplete={() => {
+            setClick(!isClick)
+          }}
 
           // drawShape={ctx => {
           //   ctx.beginPath()
@@ -71,7 +73,8 @@ function App() {
 
           drawShape={ctx => {
             ctx.beginPath();
-            ctx.moveTo(75, 40);
+            // ctx.moveTo(75, 40);
+            // ctx.moveTo(40, 75);
 
             ctx.bezierCurveTo(75, 37, 70, 25, 50, 25);
             ctx.bezierCurveTo(20, 25, 20, 62.5, 20, 62.5);
