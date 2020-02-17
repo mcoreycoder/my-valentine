@@ -2,7 +2,7 @@
   "name": "my-valenitine",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://mcoreycoder.github.io/my-valenitine/",
+  "homepage": "https://mcoreycoder.github.io/my-valenitine/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -14,14 +14,15 @@
     "react-confetti": "^5.0.1",
     "react-dom": "^16.12.0",
     "react-native-floating-hearts": "0.0.9",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "react-use": "^13.26.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy" : "npm run build", 
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
