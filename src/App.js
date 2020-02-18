@@ -42,13 +42,13 @@ function App() {
         <Confetti
           width={width}
           height={height}
-          numberOfPieces={20}
+          numberOfPieces={300}
           confettiSource={{ x: (width/2), y: (height/2), w: 0, h: 0 }}
-          friction={0.99}
+          // friction={0.99}
           // wind={.01}
-          gravity={0.02}
-          // initialVelocityX={10}
-          // initialVelocityY={10}
+          // gravity={0.1}
+          initialVelocityX={6}
+          initialVelocityY={20}
           colors={["#AFEEEE","#8A2BE2", "#FF0000", "#FFFF00", "#FFE4E1", "#40E0D0", "#48D1CC", "#00CED1", "#007b7d","#FF1493","#FF00FF"]}
           opacity={0.7}
           recycle={!isClick }
@@ -73,18 +73,29 @@ function App() {
           // }}
 
           drawShape={ctx => {
-            ctx.beginPath();
-            // ctx.moveTo(75, 40);
-            // ctx.moveTo(40, 75);
+            // ctx.beginPath();
+            // // ctx.moveTo(75, 40);
+            // // ctx.moveTo(40, 75);
+            // ctx.bezierCurveTo(75/2, 37/2, 70/2, 25/2, 50/2, 25/2);
+            // ctx.bezierCurveTo(20/2, 25/2, 20/2, 62.5/2, 20/2, 62.5/2);
+            // ctx.bezierCurveTo(20/2, 80/2, 40/2, 102/2, 75/2, 120/2);
+            // ctx.bezierCurveTo(110/2, 102/2, 130/2, 80/2, 130/2, 62.5/2);
+            // ctx.bezierCurveTo(130/2, 62.5/2, 130/2, 25/2, 100/2, 25/2);
+            // ctx.bezierCurveTo(85/2, 25/2, 75/2, 37/2, 75/2, 40/2);
+            // ctx.fill();
+            // ctx.closePath();
 
-            ctx.bezierCurveTo(75, 37, 70, 25, 50, 25);
-            ctx.bezierCurveTo(20, 25, 20, 62.5, 20, 62.5);
-            ctx.bezierCurveTo(20, 80, 40, 102, 75, 120);
-            ctx.bezierCurveTo(110, 102, 130, 80, 130, 62.5);
-            ctx.bezierCurveTo(130, 62.5, 130, 25, 100, 25);
-            ctx.bezierCurveTo(85, 25, 75, 37, 75, 40);
+            ctx.beginPath();
+            ctx.bezierCurveTo(32.5/2, 18.5/2, 35/2, 12.5/2, 25/2, 12.5/2);
+            ctx.bezierCurveTo(10/2, 12.5/2, 10/2, 31.25/2, 10/2, 31.25/2);
+            ctx.bezierCurveTo(10/2, 40/2, 20/2, 51/2, 32.5/2, 60/2);
+            ctx.bezierCurveTo(55/2, 51/2, 65/2, 40/2, 65/2, 31.25/2);
+            ctx.bezierCurveTo(65/2, 31.25/2, 65/2,12.5/2, 50/2,12.5/2);
+            ctx.bezierCurveTo(42.5/2,12.5/2, 32.5/2, 18.5/2, 32.5/2, 20/2);
             ctx.fill();
             ctx.closePath();
+
+            
           }}
         />
       </header>
